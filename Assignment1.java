@@ -26,10 +26,10 @@ public class Assignment1 implements Assignment1Interface {
         String pass = "Ax$Q=CBFy+&9<',K";
 
         // our source files to input our salt and IV hex values
-        String IV_File = "src\\IV.txt";
-        String Salt_file = "src\\Salt.txt";
-        String Encryption_file = "src\\Encryption.txt";
-        String Password_file = "src\\Password.txt";
+        String IV_File = "\\IV.txt";
+        String Salt_file = "\\Salt.txt";
+        String Encryption_file = "\\Encryption.txt";
+        String Password_file = "\\Password.txt";
 
         // get our IV using our random 16 bytes generator
         byte[] iv = random16bytes();
